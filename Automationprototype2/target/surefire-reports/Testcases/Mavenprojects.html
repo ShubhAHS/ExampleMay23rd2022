@@ -1,0 +1,370 @@
+<html>
+<head>
+<title>TestNG:  Mavenprojects</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Mavenprojects</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>58/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Jul 31 17:09:49 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>217 seconds (217464 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.sgtesting.assignments.ModifyUser.createUser()'><b>createUser</b><br>Test class: com.sgtesting.assignments.ModifyUser<br>Parameters: demo, User1, hi@gmail.com, shalini, 1234, 1234</td>
+<td></td>
+<td>10</td>
+<td>com.sgtesting.assignments.ModifyUser@1e1a0406</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.CreateProjectParameterize.login()'><b>login</b><br>Test class: com.sgtesting.assignments.CreateProjectParameterize<br>Parameters: admin, manager</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.assignments.CreateProjectParameterize@12aba8be</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.ModifyUser.deleteUser()'><b>deleteUser</b><br>Test class: com.sgtesting.assignments.ModifyUser</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.assignments.ModifyUser@1e1a0406</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.ModifyProjectParameterize.CloseApplication()'><b>CloseApplication</b><br>Test class: com.sgtesting.assignments.ModifyProjectParameterize</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.assignments.ModifyProjectParameterize@290222c1</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.CreateTaskParameterize.deleteproject()'><b>deleteproject</b><br>Test class: com.sgtesting.assignments.CreateTaskParameterize</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.assignments.CreateTaskParameterize@67f639d3</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.CreateProjectParameterize.createproject()'><b>createproject</b><br>Test class: com.sgtesting.assignments.CreateProjectParameterize<br>Parameters: Project1, It is a java project</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.assignments.CreateProjectParameterize@12aba8be</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.ModifyUser.Logout()'><b>Logout</b><br>Test class: com.sgtesting.assignments.ModifyUser</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.assignments.ModifyUser@1e1a0406</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.ModifyProjectParameterize.deleteproject()'><b>deleteproject</b><br>Test class: com.sgtesting.assignments.ModifyProjectParameterize</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.assignments.ModifyProjectParameterize@290222c1</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.ModifyProjectParameterize.modifyproject()'><b>modifyproject</b><br>Test class: com.sgtesting.assignments.ModifyProjectParameterize<br>Parameters: It is a selenium related programs</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.assignments.ModifyProjectParameterize@290222c1</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.CreateTaskParameterize.DeleteTask()'><b>DeleteTask</b><br>Test class: com.sgtesting.assignments.CreateTaskParameterize</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.assignments.CreateTaskParameterize@67f639d3</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.ModifyUser.minimizFlyoutWindow()'><b>minimizFlyoutWindow</b><br>Test class: com.sgtesting.assignments.ModifyUser</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.assignments.ModifyUser@1e1a0406</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.ModifyProjectParameterize.deletecustomer()'><b>deletecustomer</b><br>Test class: com.sgtesting.assignments.ModifyProjectParameterize</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.assignments.ModifyProjectParameterize@290222c1</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.CreateCustomerParameterize.CloseApplication()'><b>CloseApplication</b><br>Test class: com.sgtesting.assignments.CreateCustomerParameterize</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.assignments.CreateCustomerParameterize@3cebbb30</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.ModifyProjectParameterize.createcustomer()'><b>createcustomer</b><br>Test class: com.sgtesting.assignments.ModifyProjectParameterize<br>Parameters: Sharadbaai, The god ofEducation</td>
+<td></td>
+<td>7</td>
+<td>com.sgtesting.assignments.ModifyProjectParameterize@290222c1</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.CreateTaskParameterize.createcustomer()'><b>createcustomer</b><br>Test class: com.sgtesting.assignments.CreateTaskParameterize<br>Parameters: Sharadbaai, The god ofEducation</td>
+<td></td>
+<td>7</td>
+<td>com.sgtesting.assignments.CreateTaskParameterize@67f639d3</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.ModifyProjectParameterize.navigate()'><b>navigate</b><br>Test class: com.sgtesting.assignments.ModifyProjectParameterize</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.assignments.ModifyProjectParameterize@290222c1</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.CreateTaskParameterize.createTask()'><b>createTask</b><br>Test class: com.sgtesting.assignments.CreateTaskParameterize<br>Parameters: Wireless Network Supply Task</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.assignments.CreateTaskParameterize@67f639d3</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.ModifyUser.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.assignments.ModifyUser</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.assignments.ModifyUser@1e1a0406</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.CreateTaskParameterize.login()'><b>login</b><br>Test class: com.sgtesting.assignments.CreateTaskParameterize<br>Parameters: admin, manager</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.assignments.CreateTaskParameterize@67f639d3</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.CreateCustomerParameterize.login()'><b>login</b><br>Test class: com.sgtesting.assignments.CreateCustomerParameterize<br>Parameters: admin, manager</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.assignments.CreateCustomerParameterize@3cebbb30</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.CreateUserParameterDemo1.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.assignments.CreateUserParameterDemo1</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.assignments.CreateUserParameterDemo1@3c7f66c4</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.CreateProjectParameterize.navigate()'><b>navigate</b><br>Test class: com.sgtesting.assignments.CreateProjectParameterize</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.assignments.CreateProjectParameterize@12aba8be</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.CreateProjectParameterize.createcustomer()'><b>createcustomer</b><br>Test class: com.sgtesting.assignments.CreateProjectParameterize<br>Parameters: Sharadbaai, The god ofEducation</td>
+<td></td>
+<td>7</td>
+<td>com.sgtesting.assignments.CreateProjectParameterize@12aba8be</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.CreateTaskParameterize.createproject()'><b>createproject</b><br>Test class: com.sgtesting.assignments.CreateTaskParameterize<br>Parameters: Project1, It is a java project</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.assignments.CreateTaskParameterize@67f639d3</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.CreateProjectParameterize.CloseApplication()'><b>CloseApplication</b><br>Test class: com.sgtesting.assignments.CreateProjectParameterize</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.assignments.CreateProjectParameterize@12aba8be</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.CreateProjectParameterize.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.assignments.CreateProjectParameterize</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.assignments.CreateProjectParameterize@12aba8be</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.ModifyUser.ModifyUser1()'><b>ModifyUser1</b><br>Test class: com.sgtesting.assignments.ModifyUser<br>Parameters: shree</td>
+<td></td>
+<td>8</td>
+<td>com.sgtesting.assignments.ModifyUser@1e1a0406</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.CreateUserParameterDemo1.deleteUser()'><b>deleteUser</b><br>Test class: com.sgtesting.assignments.CreateUserParameterDemo1</td>
+<td></td>
+<td>7</td>
+<td>com.sgtesting.assignments.CreateUserParameterDemo1@3c7f66c4</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.CreateTaskParameterize.Logout()'><b>Logout</b><br>Test class: com.sgtesting.assignments.CreateTaskParameterize</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.assignments.CreateTaskParameterize@67f639d3</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.CreateProjectParameterize.deletecustomer()'><b>deletecustomer</b><br>Test class: com.sgtesting.assignments.CreateProjectParameterize</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.assignments.CreateProjectParameterize@12aba8be</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.CreateUserParameterDemo1.login()'><b>login</b><br>Test class: com.sgtesting.assignments.CreateUserParameterDemo1<br>Parameters: admin, manager</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.assignments.CreateUserParameterDemo1@3c7f66c4</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.CreateCustomerParameterize.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.assignments.CreateCustomerParameterize</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.assignments.CreateCustomerParameterize@3cebbb30</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.ModifyProjectParameterize.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.assignments.ModifyProjectParameterize</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.assignments.ModifyProjectParameterize@290222c1</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.CreateTaskParameterize.deletecustomer()'><b>deletecustomer</b><br>Test class: com.sgtesting.assignments.CreateTaskParameterize</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.assignments.CreateTaskParameterize@67f639d3</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.ModifyUser.navigate()'><b>navigate</b><br>Test class: com.sgtesting.assignments.ModifyUser</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.assignments.ModifyUser@1e1a0406</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.ModifyProjectParameterize.login()'><b>login</b><br>Test class: com.sgtesting.assignments.ModifyProjectParameterize<br>Parameters: admin, manager</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.assignments.ModifyProjectParameterize@290222c1</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.ModifyProjectParameterize.minimizFlyoutWindow()'><b>minimizFlyoutWindow</b><br>Test class: com.sgtesting.assignments.ModifyProjectParameterize</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.assignments.ModifyProjectParameterize@290222c1</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.CreateCustomerParameterize.deletecustomer()'><b>deletecustomer</b><br>Test class: com.sgtesting.assignments.CreateCustomerParameterize</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.assignments.CreateCustomerParameterize@3cebbb30</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.CreateUserParameterDemo1.navigate()'><b>navigate</b><br>Test class: com.sgtesting.assignments.CreateUserParameterDemo1</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.assignments.CreateUserParameterDemo1@3c7f66c4</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.CreateProjectParameterize.deleteproject()'><b>deleteproject</b><br>Test class: com.sgtesting.assignments.CreateProjectParameterize</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.assignments.CreateProjectParameterize@12aba8be</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.ModifyProjectParameterize.Logout()'><b>Logout</b><br>Test class: com.sgtesting.assignments.ModifyProjectParameterize</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.assignments.ModifyProjectParameterize@290222c1</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.CreateCustomerParameterize.createcustomer()'><b>createcustomer</b><br>Test class: com.sgtesting.assignments.CreateCustomerParameterize<br>Parameters: Sharadbaai, The god ofEducation</td>
+<td></td>
+<td>7</td>
+<td>com.sgtesting.assignments.CreateCustomerParameterize@3cebbb30</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.CreateUserParameterDemo1.Logout()'><b>Logout</b><br>Test class: com.sgtesting.assignments.CreateUserParameterDemo1</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.assignments.CreateUserParameterDemo1@3c7f66c4</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.ModifyProjectParameterize.createproject()'><b>createproject</b><br>Test class: com.sgtesting.assignments.ModifyProjectParameterize<br>Parameters: Project1, It is a java project</td>
+<td></td>
+<td>4</td>
+<td>com.sgtesting.assignments.ModifyProjectParameterize@290222c1</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.CreateProjectParameterize.Logout()'><b>Logout</b><br>Test class: com.sgtesting.assignments.CreateProjectParameterize</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.assignments.CreateProjectParameterize@12aba8be</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.ModifyUser.CloseApplication()'><b>CloseApplication</b><br>Test class: com.sgtesting.assignments.ModifyUser</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.assignments.ModifyUser@1e1a0406</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.CreateTaskParameterize.launchBrowser()'><b>launchBrowser</b><br>Test class: com.sgtesting.assignments.CreateTaskParameterize</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.assignments.CreateTaskParameterize@67f639d3</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.CreateUserParameterDemo1.CloseApplication()'><b>CloseApplication</b><br>Test class: com.sgtesting.assignments.CreateUserParameterDemo1</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.assignments.CreateUserParameterDemo1@3c7f66c4</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.CreateUserParameterDemo1.minimizFlyoutWindow()'><b>minimizFlyoutWindow</b><br>Test class: com.sgtesting.assignments.CreateUserParameterDemo1</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.assignments.CreateUserParameterDemo1@3c7f66c4</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.ModifyUser.login()'><b>login</b><br>Test class: com.sgtesting.assignments.ModifyUser<br>Parameters: admin, manager</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.assignments.ModifyUser@1e1a0406</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.CreateCustomerParameterize.minimizFlyoutWindow()'><b>minimizFlyoutWindow</b><br>Test class: com.sgtesting.assignments.CreateCustomerParameterize</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.assignments.CreateCustomerParameterize@3cebbb30</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.CreateCustomerParameterize.Logout()'><b>Logout</b><br>Test class: com.sgtesting.assignments.CreateCustomerParameterize</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.assignments.CreateCustomerParameterize@3cebbb30</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.CreateCustomerParameterize.navigate()'><b>navigate</b><br>Test class: com.sgtesting.assignments.CreateCustomerParameterize</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.assignments.CreateCustomerParameterize@3cebbb30</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.CreateUserParameterDemo1.createUser()'><b>createUser</b><br>Test class: com.sgtesting.assignments.CreateUserParameterDemo1<br>Parameters: demo, User1, hi@gmail.com, shalini, 1234, 1234</td>
+<td></td>
+<td>14</td>
+<td>com.sgtesting.assignments.CreateUserParameterDemo1@3c7f66c4</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.CreateTaskParameterize.navigate()'><b>navigate</b><br>Test class: com.sgtesting.assignments.CreateTaskParameterize</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.assignments.CreateTaskParameterize@67f639d3</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.CreateProjectParameterize.minimizFlyoutWindow()'><b>minimizFlyoutWindow</b><br>Test class: com.sgtesting.assignments.CreateProjectParameterize</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.assignments.CreateProjectParameterize@12aba8be</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.CreateTaskParameterize.CloseApplication()'><b>CloseApplication</b><br>Test class: com.sgtesting.assignments.CreateTaskParameterize</td>
+<td></td>
+<td>0</td>
+<td>com.sgtesting.assignments.CreateTaskParameterize@67f639d3</td></tr>
+<tr>
+<td title='com.sgtesting.assignments.CreateTaskParameterize.minimizFlyoutWindow()'><b>minimizFlyoutWindow</b><br>Test class: com.sgtesting.assignments.CreateTaskParameterize</td>
+<td></td>
+<td>2</td>
+<td>com.sgtesting.assignments.CreateTaskParameterize@67f639d3</td></tr>
+</table><p>
+</body>
+</html>

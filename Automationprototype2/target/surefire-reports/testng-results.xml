@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="58" passed="58" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-31T17:09:49 IST" name="Testcases" finished-at="2022-07-31T17:13:26 IST" duration-ms="217464">
+    <groups>
+    </groups>
+    <test started-at="2022-07-31T17:09:49 IST" name="Mavenprojects" finished-at="2022-07-31T17:13:26 IST" duration-ms="217464">
+      <class name="com.sgtesting.assignments.CreateUserParameterDemo1">
+        <test-method signature="launchBrowser()[pri:1, instance:com.sgtesting.assignments.CreateUserParameterDemo1@3c7f66c4]" started-at="2022-07-31T17:09:49 IST" name="launchBrowser" finished-at="2022-07-31T17:09:56 IST" duration-ms="6844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.sgtesting.assignments.CreateUserParameterDemo1@3c7f66c4]" started-at="2022-07-31T17:09:56 IST" name="navigate" finished-at="2022-07-31T17:10:01 IST" duration-ms="4620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.assignments.CreateUserParameterDemo1@3c7f66c4]" started-at="2022-07-31T17:10:01 IST" name="login" data-provider="getLogin" finished-at="2022-07-31T17:10:04 IST" duration-ms="3374" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="minimizFlyoutWindow()[pri:4, instance:com.sgtesting.assignments.CreateUserParameterDemo1@3c7f66c4]" started-at="2022-07-31T17:10:04 IST" name="minimizFlyoutWindow" finished-at="2022-07-31T17:10:08 IST" duration-ms="3774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizFlyoutWindow -->
+        <test-method signature="createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.sgtesting.assignments.CreateUserParameterDemo1@3c7f66c4]" started-at="2022-07-31T17:10:08 IST" name="createUser" data-provider="getUser" finished-at="2022-07-31T17:10:22 IST" duration-ms="14532" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hi@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[shalini]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="deleteUser()[pri:6, instance:com.sgtesting.assignments.CreateUserParameterDemo1@3c7f66c4]" started-at="2022-07-31T17:10:22 IST" name="deleteUser" finished-at="2022-07-31T17:10:30 IST" duration-ms="7917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method signature="Logout()[pri:7, instance:com.sgtesting.assignments.CreateUserParameterDemo1@3c7f66c4]" started-at="2022-07-31T17:10:30 IST" name="Logout" finished-at="2022-07-31T17:10:33 IST" duration-ms="2484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method signature="CloseApplication()[pri:8, instance:com.sgtesting.assignments.CreateUserParameterDemo1@3c7f66c4]" started-at="2022-07-31T17:10:33 IST" name="CloseApplication" finished-at="2022-07-31T17:10:33 IST" duration-ms="644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApplication -->
+      </class> <!-- com.sgtesting.assignments.CreateUserParameterDemo1 -->
+      <class name="com.sgtesting.assignments.ModifyProjectParameterize">
+        <test-method signature="launchBrowser()[pri:1, instance:com.sgtesting.assignments.ModifyProjectParameterize@290222c1]" started-at="2022-07-31T17:12:09 IST" name="launchBrowser" finished-at="2022-07-31T17:12:12 IST" duration-ms="2784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.sgtesting.assignments.ModifyProjectParameterize@290222c1]" started-at="2022-07-31T17:12:12 IST" name="navigate" finished-at="2022-07-31T17:12:15 IST" duration-ms="3083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.assignments.ModifyProjectParameterize@290222c1]" started-at="2022-07-31T17:12:15 IST" name="login" data-provider="getLogin" finished-at="2022-07-31T17:12:18 IST" duration-ms="2483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="minimizFlyoutWindow()[pri:4, instance:com.sgtesting.assignments.ModifyProjectParameterize@290222c1]" started-at="2022-07-31T17:12:18 IST" name="minimizFlyoutWindow" finished-at="2022-07-31T17:12:20 IST" duration-ms="2094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizFlyoutWindow -->
+        <test-method signature="createcustomer(java.lang.String,java.lang.String)[pri:5, instance:com.sgtesting.assignments.ModifyProjectParameterize@290222c1]" started-at="2022-07-31T17:12:20 IST" name="createcustomer" data-provider="getCustomer" finished-at="2022-07-31T17:12:27 IST" duration-ms="7603" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sharadbaai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The god ofEducation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcustomer -->
+        <test-method signature="createproject(java.lang.String,java.lang.String)[pri:6, instance:com.sgtesting.assignments.ModifyProjectParameterize@290222c1]" started-at="2022-07-31T17:12:27 IST" name="createproject" data-provider="getproject" finished-at="2022-07-31T17:12:32 IST" duration-ms="4646" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Project1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[It is a java project]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createproject -->
+        <test-method signature="deleteproject()[pri:7, instance:com.sgtesting.assignments.ModifyProjectParameterize@290222c1]" started-at="2022-07-31T17:12:32 IST" name="deleteproject" finished-at="2022-07-31T17:12:37 IST" duration-ms="4569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteproject -->
+        <test-method signature="modifyproject(java.lang.String)[pri:7, instance:com.sgtesting.assignments.ModifyProjectParameterize@290222c1]" started-at="2022-07-31T17:12:37 IST" name="modifyproject" data-provider="getModify" finished-at="2022-07-31T17:12:37 IST" duration-ms="64" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[It is a selenium related programs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyproject -->
+        <test-method signature="deletecustomer()[pri:8, instance:com.sgtesting.assignments.ModifyProjectParameterize@290222c1]" started-at="2022-07-31T17:12:37 IST" name="deletecustomer" finished-at="2022-07-31T17:12:41 IST" duration-ms="4482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletecustomer -->
+        <test-method signature="Logout()[pri:9, instance:com.sgtesting.assignments.ModifyProjectParameterize@290222c1]" started-at="2022-07-31T17:12:41 IST" name="Logout" finished-at="2022-07-31T17:12:44 IST" duration-ms="2447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method signature="CloseApplication()[pri:10, instance:com.sgtesting.assignments.ModifyProjectParameterize@290222c1]" started-at="2022-07-31T17:12:44 IST" name="CloseApplication" finished-at="2022-07-31T17:12:45 IST" duration-ms="899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApplication -->
+      </class> <!-- com.sgtesting.assignments.ModifyProjectParameterize -->
+      <class name="com.sgtesting.assignments.CreateProjectParameterize">
+        <test-method signature="launchBrowser()[pri:1, instance:com.sgtesting.assignments.CreateProjectParameterize@12aba8be]" started-at="2022-07-31T17:11:39 IST" name="launchBrowser" finished-at="2022-07-31T17:11:41 IST" duration-ms="2847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.sgtesting.assignments.CreateProjectParameterize@12aba8be]" started-at="2022-07-31T17:11:41 IST" name="navigate" finished-at="2022-07-31T17:11:45 IST" duration-ms="3380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.assignments.CreateProjectParameterize@12aba8be]" started-at="2022-07-31T17:11:45 IST" name="login" data-provider="getLogin" finished-at="2022-07-31T17:11:47 IST" duration-ms="2395" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="minimizFlyoutWindow()[pri:4, instance:com.sgtesting.assignments.CreateProjectParameterize@12aba8be]" started-at="2022-07-31T17:11:47 IST" name="minimizFlyoutWindow" finished-at="2022-07-31T17:11:49 IST" duration-ms="2099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizFlyoutWindow -->
+        <test-method signature="createcustomer(java.lang.String,java.lang.String)[pri:5, instance:com.sgtesting.assignments.CreateProjectParameterize@12aba8be]" started-at="2022-07-31T17:11:49 IST" name="createcustomer" data-provider="getCustomer" finished-at="2022-07-31T17:11:57 IST" duration-ms="7561" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sharadbaai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The god ofEducation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcustomer -->
+        <test-method signature="createproject(java.lang.String,java.lang.String)[pri:6, instance:com.sgtesting.assignments.CreateProjectParameterize@12aba8be]" started-at="2022-07-31T17:11:57 IST" name="createproject" data-provider="getproject" finished-at="2022-07-31T17:12:01 IST" duration-ms="4575" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Project1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[It is a java project]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createproject -->
+        <test-method signature="deletecustomer()[pri:6, instance:com.sgtesting.assignments.CreateProjectParameterize@12aba8be]" started-at="2022-07-31T17:12:01 IST" name="deletecustomer" finished-at="2022-07-31T17:12:06 IST" duration-ms="4562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletecustomer -->
+        <test-method signature="deleteproject()[pri:7, instance:com.sgtesting.assignments.CreateProjectParameterize@12aba8be]" started-at="2022-07-31T17:12:06 IST" name="deleteproject" finished-at="2022-07-31T17:12:06 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteproject -->
+        <test-method signature="Logout()[pri:8, instance:com.sgtesting.assignments.CreateProjectParameterize@12aba8be]" started-at="2022-07-31T17:12:06 IST" name="Logout" finished-at="2022-07-31T17:12:09 IST" duration-ms="2759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method signature="CloseApplication()[pri:9, instance:com.sgtesting.assignments.CreateProjectParameterize@12aba8be]" started-at="2022-07-31T17:12:09 IST" name="CloseApplication" finished-at="2022-07-31T17:12:09 IST" duration-ms="565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApplication -->
+      </class> <!-- com.sgtesting.assignments.CreateProjectParameterize -->
+      <class name="com.sgtesting.assignments.ModifyUser">
+        <test-method signature="launchBrowser()[pri:1, instance:com.sgtesting.assignments.ModifyUser@1e1a0406]" started-at="2022-07-31T17:10:33 IST" name="launchBrowser" finished-at="2022-07-31T17:10:37 IST" duration-ms="3149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.sgtesting.assignments.ModifyUser@1e1a0406]" started-at="2022-07-31T17:10:37 IST" name="navigate" finished-at="2022-07-31T17:10:40 IST" duration-ms="3098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.assignments.ModifyUser@1e1a0406]" started-at="2022-07-31T17:10:40 IST" name="login" data-provider="getLogin" finished-at="2022-07-31T17:10:42 IST" duration-ms="2476" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="minimizFlyoutWindow()[pri:4, instance:com.sgtesting.assignments.ModifyUser@1e1a0406]" started-at="2022-07-31T17:10:42 IST" name="minimizFlyoutWindow" finished-at="2022-07-31T17:10:44 IST" duration-ms="2094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizFlyoutWindow -->
+        <test-method signature="createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.sgtesting.assignments.ModifyUser@1e1a0406]" started-at="2022-07-31T17:10:44 IST" name="createUser" data-provider="getUser" finished-at="2022-07-31T17:10:55 IST" duration-ms="10380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hi@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[shalini]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="ModifyUser1(java.lang.String)[pri:6, instance:com.sgtesting.assignments.ModifyUser@1e1a0406]" started-at="2022-07-31T17:10:55 IST" name="ModifyUser1" data-provider="getModifyUser1" finished-at="2022-07-31T17:11:03 IST" duration-ms="8139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shree]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ModifyUser1 -->
+        <test-method signature="deleteUser()[pri:7, instance:com.sgtesting.assignments.ModifyUser@1e1a0406]" started-at="2022-07-31T17:11:03 IST" name="deleteUser" finished-at="2022-07-31T17:11:09 IST" duration-ms="6362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method signature="Logout()[pri:8, instance:com.sgtesting.assignments.ModifyUser@1e1a0406]" started-at="2022-07-31T17:11:09 IST" name="Logout" finished-at="2022-07-31T17:11:12 IST" duration-ms="2443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method signature="CloseApplication()[pri:9, instance:com.sgtesting.assignments.ModifyUser@1e1a0406]" started-at="2022-07-31T17:11:12 IST" name="CloseApplication" finished-at="2022-07-31T17:11:12 IST" duration-ms="627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApplication -->
+      </class> <!-- com.sgtesting.assignments.ModifyUser -->
+      <class name="com.sgtesting.assignments.CreateCustomerParameterize">
+        <test-method signature="launchBrowser()[pri:1, instance:com.sgtesting.assignments.CreateCustomerParameterize@3cebbb30]" started-at="2022-07-31T17:11:12 IST" name="launchBrowser" finished-at="2022-07-31T17:11:15 IST" duration-ms="3087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.sgtesting.assignments.CreateCustomerParameterize@3cebbb30]" started-at="2022-07-31T17:11:15 IST" name="navigate" finished-at="2022-07-31T17:11:18 IST" duration-ms="3096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.assignments.CreateCustomerParameterize@3cebbb30]" started-at="2022-07-31T17:11:18 IST" name="login" data-provider="getLogin" finished-at="2022-07-31T17:11:21 IST" duration-ms="2464" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="minimizFlyoutWindow()[pri:4, instance:com.sgtesting.assignments.CreateCustomerParameterize@3cebbb30]" started-at="2022-07-31T17:11:21 IST" name="minimizFlyoutWindow" finished-at="2022-07-31T17:11:23 IST" duration-ms="2098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizFlyoutWindow -->
+        <test-method signature="createcustomer(java.lang.String,java.lang.String)[pri:5, instance:com.sgtesting.assignments.CreateCustomerParameterize@3cebbb30]" started-at="2022-07-31T17:11:23 IST" name="createcustomer" data-provider="getCustomer" finished-at="2022-07-31T17:11:31 IST" duration-ms="7602" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sharadbaai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The god ofEducation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcustomer -->
+        <test-method signature="deletecustomer()[pri:6, instance:com.sgtesting.assignments.CreateCustomerParameterize@3cebbb30]" started-at="2022-07-31T17:11:31 IST" name="deletecustomer" finished-at="2022-07-31T17:11:35 IST" duration-ms="4644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletecustomer -->
+        <test-method signature="Logout()[pri:8, instance:com.sgtesting.assignments.CreateCustomerParameterize@3cebbb30]" started-at="2022-07-31T17:11:35 IST" name="Logout" finished-at="2022-07-31T17:11:38 IST" duration-ms="2785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method signature="CloseApplication()[pri:9, instance:com.sgtesting.assignments.CreateCustomerParameterize@3cebbb30]" started-at="2022-07-31T17:11:38 IST" name="CloseApplication" finished-at="2022-07-31T17:11:39 IST" duration-ms="564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApplication -->
+      </class> <!-- com.sgtesting.assignments.CreateCustomerParameterize -->
+      <class name="com.sgtesting.assignments.CreateTaskParameterize">
+        <test-method signature="launchBrowser()[pri:1, instance:com.sgtesting.assignments.CreateTaskParameterize@67f639d3]" started-at="2022-07-31T17:12:45 IST" name="launchBrowser" finished-at="2022-07-31T17:12:47 IST" duration-ms="2817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.sgtesting.assignments.CreateTaskParameterize@67f639d3]" started-at="2022-07-31T17:12:47 IST" name="navigate" finished-at="2022-07-31T17:12:50 IST" duration-ms="3087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.assignments.CreateTaskParameterize@67f639d3]" started-at="2022-07-31T17:12:50 IST" name="login" data-provider="getLogin" finished-at="2022-07-31T17:12:53 IST" duration-ms="2462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="minimizFlyoutWindow()[pri:4, instance:com.sgtesting.assignments.CreateTaskParameterize@67f639d3]" started-at="2022-07-31T17:12:53 IST" name="minimizFlyoutWindow" finished-at="2022-07-31T17:12:55 IST" duration-ms="2103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizFlyoutWindow -->
+        <test-method signature="createcustomer(java.lang.String,java.lang.String)[pri:5, instance:com.sgtesting.assignments.CreateTaskParameterize@67f639d3]" started-at="2022-07-31T17:12:55 IST" name="createcustomer" data-provider="getCustomer" finished-at="2022-07-31T17:13:03 IST" duration-ms="7618" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sharadbaai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The god ofEducation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcustomer -->
+        <test-method signature="createproject(java.lang.String,java.lang.String)[pri:6, instance:com.sgtesting.assignments.CreateTaskParameterize@67f639d3]" started-at="2022-07-31T17:13:03 IST" name="createproject" data-provider="getproject" finished-at="2022-07-31T17:13:07 IST" duration-ms="4662" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Project1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[It is a java project]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createproject -->
+        <test-method signature="createTask(java.lang.String)[pri:7, instance:com.sgtesting.assignments.CreateTaskParameterize@67f639d3]" started-at="2022-07-31T17:13:07 IST" name="createTask" data-provider="getTask" finished-at="2022-07-31T17:13:14 IST" duration-ms="6634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Wireless Network Supply Task]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTask -->
+        <test-method signature="DeleteTask()[pri:8, instance:com.sgtesting.assignments.CreateTaskParameterize@67f639d3]" started-at="2022-07-31T17:13:14 IST" name="DeleteTask" finished-at="2022-07-31T17:13:14 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteTask -->
+        <test-method signature="deleteproject()[pri:8, instance:com.sgtesting.assignments.CreateTaskParameterize@67f639d3]" started-at="2022-07-31T17:13:14 IST" name="deleteproject" finished-at="2022-07-31T17:13:19 IST" duration-ms="4531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteproject -->
+        <test-method signature="deletecustomer()[pri:9, instance:com.sgtesting.assignments.CreateTaskParameterize@67f639d3]" started-at="2022-07-31T17:13:19 IST" name="deletecustomer" finished-at="2022-07-31T17:13:23 IST" duration-ms="4535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletecustomer -->
+        <test-method signature="Logout()[pri:10, instance:com.sgtesting.assignments.CreateTaskParameterize@67f639d3]" started-at="2022-07-31T17:13:23 IST" name="Logout" finished-at="2022-07-31T17:13:26 IST" duration-ms="2538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method signature="CloseApplication()[pri:11, instance:com.sgtesting.assignments.CreateTaskParameterize@67f639d3]" started-at="2022-07-31T17:13:26 IST" name="CloseApplication" finished-at="2022-07-31T17:13:26 IST" duration-ms="551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApplication -->
+      </class> <!-- com.sgtesting.assignments.CreateTaskParameterize -->
+    </test> <!-- Mavenprojects -->
+  </suite> <!-- Testcases -->
+</testng-results>

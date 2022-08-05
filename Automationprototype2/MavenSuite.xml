@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Testcases">
+	<test name="Mavenprojects">
+		<classes>
+			<class name="com.sgtesting.assignments.CreateUserParameterDemo1"></class>
+			<class name="com.sgtesting.assignments.ModifyUser"></class>
+			<class name="com.sgtesting.assignments.CreateCustomerParameterize"></class>
+			
+			<class name="com.sgtesting.assignments.CreateProjectParameterize"></class>
+			<class name="com.sgtesting.assignments.ModifyProjectParameterize"></class>
+			<class name="com.sgtesting.assignments.CreateTaskParameterize"></class> 
+			
+		</classes>
+	</test>
+</suite>
